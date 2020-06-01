@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">wms</string>
+    <string name="button_start">START</string>
+    <string name="decline">DECLINE</string>
+    <string name="answer">ANSWER</string>
+    <string name="description">image</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
