@@ -10,9 +10,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
         android:background="#5E35B1" />
 
     <Button
@@ -21,8 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/view3"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="60dp"
         android:text="@string/decline" />
 
     <Button
@@ -30,8 +32,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/view3"
-        android:layout_marginStart="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_toEndOf="@+id/decline"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="60dp"
         android:text="@string/answer" />
 </RelativeLayout>

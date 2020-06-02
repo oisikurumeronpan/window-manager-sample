@@ -63,8 +63,8 @@ class TestService : Service() {
         windowManager = applicationContext
             .getSystemService(Context.WINDOW_SERVICE) as WindowManager
         val params = WindowManager.LayoutParams(
-            WindowManager.LayoutParams.WRAP_CONTENT,
-            WindowManager.LayoutParams.WRAP_CONTENT,
+            WindowManager.LayoutParams.MATCH_PARENT,
+            WindowManager.LayoutParams.MATCH_PARENT,
             typeLayer, WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE
                     or WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL,
             PixelFormat.TRANSLUCENT
@@ -74,7 +74,6 @@ class TestService : Service() {
         params.gravity = Gravity.TOP or Gravity.START
         params.x = 0 * dpScale // 20dp
         params.y = 0 * dpScale // 80dp
-        params.width = resources.displayMetrics.widthPixels
 
         // レイアウトファイルからInfalteするViewを作成
         val nullParent: ViewGroup? = null
